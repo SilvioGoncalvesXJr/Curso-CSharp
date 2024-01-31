@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.Fundamentos
+namespace CursoCSharp.Fundamentos
 {
     internal class PrimeiroPrograma
     {
-        static void Main()
+        public static void Executar()
         {
-            System.Console.Write("Primeiro ");
+            Console.Write("Primeiro ");
             Console.WriteLine("Programa");
-            Console.WriteLine("Terminou!");
+            Console.WriteLine("Terminou");
         }
     }
 }
